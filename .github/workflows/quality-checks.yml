@@ -3,19 +3,19 @@ name: Scheduled Project Quality Checks
 
 on:
   schedule:
-    - cron: '26 10 * * 1'
+    - cron: '31 9 * * 1'
       timezone: 'Asia/Kolkata'
-    - cron: '29 11 * * 2'
+    - cron: '34 10 * * 2'
       timezone: 'Asia/Kolkata'
-    - cron: '57 9 * * 3'
+    - cron: '2 9 * * 3'
       timezone: 'Asia/Kolkata'
-    - cron: '58 11 * * 4'
+    - cron: '3 11 * * 4'
       timezone: 'Asia/Kolkata'
-    - cron: '1 11 * * 5'
+    - cron: '6 10 * * 5'
       timezone: 'Asia/Kolkata'
-    - cron: '29 10 * * 6'
+    - cron: '34 9 * * 6'
       timezone: 'Asia/Kolkata'
-    - cron: '56 11 * * 0'
+    - cron: '5 11 * * 0'
       timezone: 'Asia/Kolkata'
 
   push:
